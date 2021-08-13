@@ -13,7 +13,7 @@ def test_divide_by_12_by_3():
     assert calc.divide(12, 3) == 4
 
 def test_inc_string_9_plus_3():
-    assert calc.execute("9 + 3") == 12
+    assert calc.execute(9, 3, "+") == 12
 
 
 
